@@ -1,8 +1,19 @@
+@use '../constants/typography';
+
 * {
   margin: 0;
+  font-family: typography.$font-main;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+html {
+  font-family: typography.$font-main;
+}
+
+body {
+  font-family: typography.$font-main;
 }
 
 h1 {
