@@ -1,0 +1,93 @@
+@use '../constants/colors' as *;
+@use '../mixins/text-style' as *;
+@use '../mixins/responsive' as *;
+@use '../mixins/flexbox' as *;
+
+.home {
+  @include flexbox;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: $background;
+
+  &-header {
+    @include flexbox;
+    flex-direction: column;
+    gap: 10px;
+
+    .title {
+      font-size: 45px;
+      letter-spacing: 0.15em;
+      font-weight: 700;
+      order: 2;
+      color: $black;
+      text-shadow: -2px -2px 0 $white, 2px -2px 0 $white, -2px 2px 0 $white,
+        2px 2px 0 $white;
+    }
+
+    .sub-title {
+      @include text-style(18);
+      order: 1;
+    }
+  }
+
+  &-content {
+    @include flexbox;
+    flex-direction: column;
+    gap: 15px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .start-button {
+      @include text-style(18);
+      width: calc(100% - 100px);
+      height: 56px;
+      color: $white;
+      border-radius: 8px;
+      background-color: $primary;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      border: 2px solid $border;
+      transition: transform 200ms ease-in-out, box-shadow 200ms ease;
+
+      &:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      &:active {
+        transform: translateY(0px);
+      }
+    }
+  }
+
+  @include responsive(T) {
+    &-header {
+      gap: 15px;
+
+      .title {
+        font-size: 100px;
+        letter-spacing: 0.1em;
+        text-shadow: -4px -4px 0 $white, 4px -4px 0 $white, -4px 4px 0 $white,
+          4px 4px 0 $white;
+      }
+
+      .sub-title {
+        @include text-style(24);
+      }
+    }
+
+    &-content {
+      gap: 20px;
+
+      .start-button {
+        @include text-style(24);
+        height: 70px;
+      }
+    }
+  }
+}

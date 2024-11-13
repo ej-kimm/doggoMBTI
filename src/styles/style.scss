@@ -13,3 +13,6 @@
 @use './mixins/responsive';
 @use './mixins/positions';
 @use './mixins/flexbox';
+
+// layouts
+@use './layouts/home';
