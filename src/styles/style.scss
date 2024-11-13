@@ -1,5 +1,6 @@
 // constants
 @use './constants/typography';
+@use './constants/breakpoints';
 
 // base
 @use './base/fonts';
@@ -8,5 +9,6 @@
 
 // mixins
 @use './mixins/text-style';
+@use './mixins/responsive';
 @use './mixins/positions';
 @use './mixins/flexbox';
