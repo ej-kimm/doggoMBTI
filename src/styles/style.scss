@@ -1,7 +1,10 @@
-//constants
+// constants
 @use './constants/typography';
 
 // base
 @use './base/fonts';
 @use './base/normalize';
 @use './base/reset';
+
+// mixins
+@use './mixins/text-style';
