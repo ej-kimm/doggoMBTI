@@ -23,6 +23,22 @@ dist-ssr
 *.sln
 *.sw?
 
+# Yarn Zero-Install folders
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Exclude Yarn cache folder from Git
+**.yarn/cache
+
+# Exclude Yarn PnP related files from Git
+.pnp.cjs
+.pnp.loader.mjs
+install-state.gz
+
 # Etc.
 .DS_Store
 style.css.map
