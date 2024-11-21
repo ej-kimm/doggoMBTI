@@ -1,0 +1,128 @@
+[
+  {
+    "id": 1,
+    "question": "우리 댕댕이는 산책하다 친구를 만나면?",
+    "type": "E/I",
+    "options": [
+      { "answer": "먼저 다가가는 편이에요", "type": "E" },
+      { "answer": "피하는 편이에요", "type": "I" }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "우리 댕댕이는 잠을 잘 때",
+    "type": "E/I",
+    "options": [
+      { "answer": "머리만 대면 잠들어요", "type": "E" },
+      { "answer": "뒤척이다 잠들어요", "type": "I" }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "우리 댕댕이는 제가 혼을 내면",
+    "type": "F/T",
+    "options": [
+      { "answer": "삐진 티를 내요", "type": "F" },
+      { "answer": "평소와 같이 행동해요", "type": "T" }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "우리 댕댕이는 자기만의 하루 루틴이",
+    "type": "P/J",
+    "options": [
+      { "answer": "있는 것 같아요!", "type": "J" },
+      { "answer": "없는 것 같아요!", "type": "P" }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "우리 댕댕이는 가만히 있을 때 이런 행동을 해요",
+    "type": "N/S",
+    "options": [
+      { "answer": "혼자서 무언갈 하려고 해요", "type": "N" },
+      { "answer": "가만히 멍 때려요", "type": "S" }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "우리 댕댕이는 친구들과",
+    "type": "E/I",
+    "options": [
+      { "answer": "금방 친해져요", "type": "E" },
+      { "answer": "시간이 조금 필요해요", "type": "I" }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "우리 댕댕이는 제가 울고있으면",
+    "type": "F/T",
+    "options": [
+      { "answer": "옆에 와서 위로해줘요", "type": "F" },
+      { "answer": "아무일도 없다는 듯이 평소대로 행동해요", "type": "T" }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "우리 댕댕이는 평소와 같은 산책코스로 가지 않으면",
+    "type": "N/S",
+    "options": [
+      { "answer": "잘 안따라와요", "type": "S" },
+      { "answer": "새로운 냄새 맡는 것을 좋아해서 잘 따라와요", "type": "N" }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "우리 댕댕이는 지나가던 사람이 관심을 보이면",
+    "type": "E/I",
+    "options": [
+      { "answer": "이뻐해달라고 애교부려요", "type": "E" },
+      { "answer": "경계해요", "type": "I" }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "우리 댕댕이는 새로운 물건을 발견하면",
+    "type": "N/S",
+    "options": [
+      { "answer": "천천히 탐색부터해요", "type": "S" },
+      { "answer": "흥분하며 엄청 건드려봐요", "type": "N" }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "우리 댕댕이는 기쁠 때와 슬플 때가",
+    "type": "E/I",
+    "options": [
+      { "answer": "너무 티나요", "type": "E" },
+      { "answer": "티가 안나요", "type": "I" }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "우리 댕댕이는 산책 가기로 해놓고 안가면",
+    "type": "P/J",
+    "options": [
+      { "answer": "언젠간 가겠지하고 기다려요", "type": "P" },
+      { "answer": "저한테 엄청 눈치줘요", "type": "J" }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "우리 댕댕이는 밥먹을 때",
+    "type": "P/J",
+    "options": [
+      { "answer": "항상 똑같은 밥그릇에 먹어요", "type": "J" },
+      { "answer": "아무 그릇에서나 먹어요", "type": "P" }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "우리 댕댕이는 뭔가 갖고 싶을 때",
+    "type": "F/T",
+    "options": [
+      { "answer": "애교를 부려요", "type": "F" },
+      { "answer": "조용히 기다려요", "type": "T" }
+    ]
+  }
+]
