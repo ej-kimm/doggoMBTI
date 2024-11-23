@@ -65,7 +65,7 @@
     }
   }
 
-  @include responsive(T) {
+  @include responsive(D) {
     &-header {
       gap: 15px;
 
