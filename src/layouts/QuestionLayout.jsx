@@ -4,9 +4,13 @@ import Navbar from '../components/Navbar'
 
 export default function QuestionLayout() {
   return (
-    <>
-      <Navbar />
-      <Outlet />
-    </>
+    <div className="layout-container">
+      <header className="navbar-container">
+        <Navbar />
+      </header>
+      <main className="outlet-container">
+        <Outlet />
+      </main>
+    </div>
   )
 }

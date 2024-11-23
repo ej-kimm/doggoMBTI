@@ -1,0 +1,18 @@
+@use '../constants/colors' as *;
+
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.navbar-container {
+  height: 50px;
+  background-color: $white;
+  flex-shrink: 0;
+}
+
+.outlet-container {
+  background-color: $background;
+  flex-grow: 1;
+}
