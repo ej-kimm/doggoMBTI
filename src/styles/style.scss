@@ -14,5 +14,9 @@
 @use './mixins/positions';
 @use './mixins/flexbox';
 
+// components
+@use './components/progress-bar';
+
 // layouts
 @use './layouts/home';
+@use './layouts/layout';

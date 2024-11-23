@@ -21,10 +21,14 @@ export default function Question() {
   }, [id])
 
   return (
-    <main className="question">
+    <section className="question">
       {currentQuestion && (
         <>
-          <div className="progress"></div>
+          <div className="progress-bar">
+            <div className="progress-bar-gauge">
+              <img src="/images/progress_dog.png" alt="progress" />
+            </div>
+          </div>
           <div className="question-content">
             <h3>{currentQuestion.question}</h3>
             <div className="character"></div>
@@ -34,6 +38,6 @@ export default function Question() {
           </div>
         </>
       )}
-    </main>
+    </section>
   )
 }
