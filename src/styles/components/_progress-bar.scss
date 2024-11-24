@@ -11,7 +11,8 @@
 
   &-gauge {
     @include pos-center-y;
-    margin-left: 5%;
+    left: 0;
+    transition: left 300ms ease-in-out;
 
     & img {
       display: block;

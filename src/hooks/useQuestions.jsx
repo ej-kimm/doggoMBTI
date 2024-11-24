@@ -21,5 +21,9 @@ export default function useQuestions() {
     setCurrentQuestion(filteredQuestion[0])
   }, [id])
 
-  return { currentQuestion, goToNextQuestion }
+  return {
+    currentQuestion,
+    goToNextQuestion,
+    totalQuestions: questionsData.length,
+  }
 }
