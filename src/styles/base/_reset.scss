@@ -1,4 +1,5 @@
 @use '../constants/typography' as *;
+@use '../constants/colors' as *;
 
 * {
   margin: 0;
@@ -15,6 +16,7 @@ html {
 
 body {
   font-family: $font-main;
+  background-color: $beige;
 }
 
 h1 {
