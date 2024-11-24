@@ -21,23 +21,27 @@ export default function Question() {
   }, [id])
 
   return (
-    <section className="question">
+    <>
       {currentQuestion && (
-        <>
+        <section className="question">
           <div className="progress-bar">
             <div className="progress-bar-gauge">
               <img src="/images/progress_dog.png" alt="progress" />
             </div>
           </div>
           <div className="question-content">
-            <h3>{currentQuestion.question}</h3>
-            <div className="character"></div>
-            {currentQuestion.options.map((option, index) => (
-              <div key={index}>{option.answer}</div>
-            ))}
+            <h3 className="title">{currentQuestion.question}</h3>
+            {/* <div className="character"></div> */}
+            <div className="button-wrapper">
+              {currentQuestion.options.map((option, index) => (
+                <button className="answer-btn" key={index} type="button">
+                  {option.answer}
+                </button>
+              ))}
+            </div>
           </div>
-        </>
+        </section>
       )}
-    </section>
+    </>
   )
 }
