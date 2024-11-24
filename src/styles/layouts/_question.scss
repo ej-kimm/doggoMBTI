@@ -30,6 +30,11 @@
       background-color: $beige;
       border: 1px solid $border;
       border-radius: 8px;
+      transition: background-color 300ms ease-in-out;
+
+      &:hover {
+        background-color: lighten($beige, 10%);
+      }
     }
   }
 }
